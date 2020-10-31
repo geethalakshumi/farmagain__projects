@@ -796,62 +796,62 @@ motor8=(e)=>{
   return (
     <div className="App mt-3">
       <div><img src="img.png"/></div>
-      <table class="table table-striped mt-3">
+      <table className="table table-striped mt-3">
   <tbody>
     <tr>
-      <th scope="row">Filter Motor Value </th>
-      <td><label class="switch">
+      <th scope="row">Filter Motor Valve </th>
+      <td><label className="switch">
   <input type="checkbox" id="1" checked={this.state.motor1}  onChange={this.motor1} />
-  <span class="slider round"></span>
-    </label> </td>
+  <span className="slider round"></span>
+    </label></td>
     </tr>
     <tr>
-      <th scope="row">Ozone Motor Value </th>
-      <td><label class="switch">
+      <th scope="row">Ozone Motor Valve </th>
+      <td><label className="switch">
   <input type="checkbox" id="2" checked={this.state.motor2}  onChange={this.motor2}/>
-  <span class="slider round"></span>
+  <span className="slider round"></span>
     </label></td> 
     </tr>
     <tr>
       <th scope="row">Filter Motor</th>
-      <td><label class="switch">
+      <td><label className="switch">
   <input type="checkbox" id="3"checked={this.state.motor3}  onChange={this.motor3} />
-  <span class="slider round"></span>
+  <span className="slider round"></span>
     </label></td>
     </tr>
     <tr>
       <th scope="row">Ozone Motor</th>
-      <td> <label class="switch">
+      <td> <label className="switch">
   <input type="checkbox" id="4" checked={this.state.motor4} onChange={this.motor4}/>
-  <span class="slider round"></span>
+  <span className="slider round"></span>
     </label></td>
     </tr>
     <tr>
       <th scope="row">Ozone Generator</th>
-      <td> <label class="switch">
+      <td> <label className="switch">
   <input type="checkbox" id="5"  checked={this.state.motor5} onChange={this.motor5} />
-  <span class="slider round"></span>
+  <span className="slider round"></span>
     </label></td>
     </tr>
     <tr>
       <th scope="row">Not Use</th>
-      <td><label class="switch">
+      <td><label className="switch">
   <input type="checkbox" id="6" checked={this.state.motor6} onChange={this.motor6} />
-  <span class="slider round"></span>
+  <span className="slider round"></span>
     </label></td>
     </tr>
     <tr>
       <th scope="row">Not Use</th>
-      <td> <label class="switch">
+      <td> <label className="switch">
   <input type="checkbox" id="7" checked={this.state.motor7}  onChange={this.motor7}/>
-  <span class="slider round"></span>
+  <span className="slider round"></span>
     </label></td>
     </tr>
     <tr>
       <th scope="row">Not Use</th>
-      <td><label class="switch">
+      <td><label className="switch">
   <input type="checkbox" id="8" checked={this.state.motor8}  onChange={this.motor8} />
-  <span class="slider round"></span>
+  <span className="slider round"></span>
     </label></td>
     </tr>
   </tbody>
